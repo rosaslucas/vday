@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let meses = Math.floor(dias / 30.44);
         let anos = Math.floor(meses / 12);
         dias %= 30.44; meses %= 12; horas %= 24; minutos %= 60; segundos %= 60;
-        elementoContador.innerHTML = `Nos amamos há:<br><strong>${anos}</strong> anos, <strong>${Math.floor(meses)}</strong> meses, <strong>${Math.floor(dias)}</strong> dias, <br><strong>${horas}</strong> horas, <strong>${minutos}</strong> minutos e <strong>${segundos}</strong> segundos!`;
+        elementoContador.innerHTML = `Te amo há:<br><strong>${anos}</strong> anos, <strong>${Math.floor(meses)}</strong> meses, <strong>${Math.floor(dias)}</strong> dias, <br><strong>${horas}</strong> horas, <strong>${minutos}</strong> minutos e <strong>${segundos}</strong> segundos!`;
     }
 
     // =======================================================
